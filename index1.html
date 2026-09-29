@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formutaire de réservation</title>
+    <style>
+        body {
+            background-color: #8B4513; /* marron */
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #5C3317; /* marron plus foncé */
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+        <h1>Casa<span style="color:rgb(112, 85, 18)">blanca</span></h1>
+    <p>La plateforme"Casablanca" est un site
+ web de réservation en ligne qui permet
+  aux clients de consulter facilement 
+  les services disponibles</p>
+  <style>
+       div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        }
+        div img {
+            width: 400px;
+            height: 300px;
+            border: 2px solid black;
+            border-radius: 13px;
+            box-shadow: 4px 7px 7px 0px red;
+            cursor: pointer;
+            margin: 10px;
+            transition: 400ms;
+            }
+            div img:hover {
+                filter: grayscale(1);
+                transform: scale(1.03);
+                }
+                </style>
+                <div>
+                    <img src="images (1).jpg" alt="image1">
+                    <img src="images.jpg" alt="image2">
+                </div>
+  </style>
+  <img src="">
+
+<table width="428" >
+<tbody>
+<tr>
+<td width="147">Nom Prénom</td>
+<td width="266"><input type="text" name="textfield" id="textfield" size="30"></td>
+</tr>
+<tr>
+<td>Email</td>
+<td><input type="text" name="textfield2" id="textfield2" size="30"></td>
+</tr>
+<tr>
+<td>Date de réservation</td>
+<td>
+<input type="date" name="date" id="date"></td>
+</tr>
+<tr>
+<td>téléphone</td>
+<td>
+<input type="Teléphone" name="Teléphone" id="date"></td>
+</tr>
+<label for="chambre">Type de chambre</label>
+  <select id="chambre" name="chambre" required>
+    <option value="">-- Choisir une chambre --</option>
+    <option value="Chambre Simple">Chambre Simple - 400 MAD</option>
+    <option value="Chambre Double">Chambre Double - 600 MAD</option>
+    <option value="Chambre Familiale">Chambre Familiale - 800 MAD</option>
+    <option value="Suite VIP">Suite VIP - 1200 MAD</option>
+  </select>
+  <a href="index3.html" target="_blank">
+        <button>Suivant</button>
+    </a>
+
+</body>
+</html>
